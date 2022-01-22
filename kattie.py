@@ -62,7 +62,7 @@ for nome in good_guys:
   email = good_guys[nome]['email']
   data = today.replace('_', '/')
   assunto = f"Leitura automatizada do Diário Oficial de {data} para {nome}"
-  content = f"""Prezado {nome},\n\nSegue o resultado da leitura automatizada do Diário Oficial de {data}, obtido pelo link: {url}\n\n*********************************\n"""
+  content = f"""Prezado(a) {nome},\n\nSegue o resultado da leitura automatizada do Diário Oficial de {data}, obtido pelo link: {url}\n\n*********************************\n"""
   content += 'ESTRUTURA DO DOE:\n\n'
   for i in estrutura:
     if i.get_text() != 'Navegação':
