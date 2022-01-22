@@ -94,4 +94,4 @@ for nome in good_guys:
   print(f'\n\ne-mail para {email}')
   print ('_'*40 + '\n')
   print (content)
-  # envia_email(email,assunto, content)
+  envia_email(email,assunto, content)
