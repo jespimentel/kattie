@@ -1,4 +1,4 @@
-#!env\Scripts\python.exe
+#!.\env\Scripts\python.exe
 
 import requests
 from bs4 import BeautifulSoup
